@@ -1,0 +1,67 @@
+.card {
+    border: 0px!important;
+}
+
+.card-body {
+    padding: 0%!important; 
+}
+
+.card-img-top {
+    margin-left: 42%;
+}
+
+.card-title {
+    margin-bottom: 0.10rem!important;
+}
+
+h5, P{
+    text-align: center;
+}
+
+.form-control {
+    font-size: 140%;
+    font-weight: 500;
+}
+
+
+
+/* iPad */
+@media only screen and (min-width: 600px) and (max-width: 800px) { 
+    img.card-img-top {
+        margin-left: 38%
+    }
+    .col-8 {
+        padding-right: 0%!important;
+        padding-left: 0%!important;
+        flex: 2 0 20%;
+        max-width: 30%;
+    }
+    .form-control {
+            font-size: 120%!important;
+            font-weight: 500;
+    }
+}
+
+
+/* phones */
+@media only screen and (max-width: 600px) {
+    .col-4 {
+        padding-right: 1%!important;
+        padding-left: 1%!important;
+    }
+    img.card-img-top {
+        margin-left: 25.5%
+    }
+    h5 {
+        font-size: 60%!important;
+    }
+    p {
+        font-size: 90%;
+    }
+    .form-control {
+        font-size: 65%!important;
+        padding: 0% !important;
+        font-weight: 600;
+        height: -1%!important;
+    }
+}

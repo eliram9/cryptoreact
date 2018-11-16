@@ -1,0 +1,38 @@
+.jumbotron {
+    background-image: url('images/bc.jpeg') !important;
+    padding: 1rem 2rem!important;
+}
+
+.jumbotron-fluid {
+    text-align: center;
+    color: #006064;
+    font-weight: 600!important;
+}
+
+.display-3 {
+    font-weight: 400!important;
+}
+
+.lead {
+    font-size: 2.25rem!important;
+    font-weight: 400!important;
+}
+
+p{
+    margin-top: -.7%!important;
+}
+
+
+/* phones */
+@media only screen and (max-width: 600px) {
+    .jumbotron
+    
+    .display-3 {
+        font-size: 2rem!important;
+        font-weight: 400!important;
+    }
+    .lead {
+        font-size: 1rem!important;  
+        font-weight: 400!important; 
+    }
+}
