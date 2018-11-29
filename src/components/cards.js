@@ -6,8 +6,9 @@ import xrp  from './images/xrp.png';
 import bch from './images/bch.png';
 import etc from './images/etc.png';
 import xlm from './images/xlm.png';
-// import './price';
 import '../components/cards.css';
+// import CoinPrice from './price';
+
 
 
 // Logo style
@@ -25,7 +26,7 @@ const Cards = ({item}) => {
                     <CardImg top width="100%" src={btc} style={logo}/>
                         <CardBody>
                             <CardTitle>BTC - Bitcoin</CardTitle>    
-                            <CardText className="bit">${}</CardText>
+                            <CardText className="bit">$</CardText>
                         </CardBody> 
                     </Card>
                 </Col>

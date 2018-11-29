@@ -5,17 +5,30 @@
 
 .jumbotron-fluid {
     text-align: center;
-    color: #006064;
+    color: rgb(58, 92, 155);
     font-weight: 600!important;
+    height: 230px;
 }
 
 .display-3 {
-    font-weight: 400!important;
+    font-family: 'VT323', monospace;
+    font-weight: 600!important;
+    text-shadow:
+    -.2px -.2px 0 #fff,
+    .2px -.2px 0 #ffffff,
+    -.2px .2px 0 #ffffff,
+    .2px .2px 0 #ffffff;  
 }
 
 .lead {
+    font-family: 'Share Tech Mono', monospace;
     font-size: 2.25rem!important;
     font-weight: 400!important;
+    text-shadow:
+    -.5px -.5px 0 #fff,
+    .5px -.5px 0 #ffffff,
+    -.5px .5px 0 #ffffff,
+    .5px .5px 0 #ffffff;   
 }
 
 p{

@@ -6,40 +6,59 @@ class CoinPrice extends React.Component {
     constructor(props) {
         super(props);
             this.state = {
-                'items': []
+                items: [],
+
             };
     }
 
-    
+    // DOM-פונקציה שמציבה את הקומפוננטה ב 
+    // בתוכה יש פונקציה שתפעיל 2 פונקציות כל 5 שניות
     componentDidMount() {
-        this.getItems();
-
+        //setInterval( () => {
+        // this.getBCH();
+        // this.getXLM();
+        // this.getETC();
+        // this.getXRP();
+        // this.getETH();
+        this.getBIT();
+    //}, 5000)
     }
 
         
-    getItems() {
-            fetch('https://api.coinmarketcap.com/v2/ticker/?limit=17')
-            .then(results => results.json())
-            .then(results => {
-                this.setState({items:results.data}, ( )=> {
-console.log(this.state)
-                })
-            });
+    // getBCH() {
+    //     fetch('https://api.coinmarketcap.com/v2/ticker/?limit=17')
+    //     .then(results => results.json())
+    //     .then(results => console.log("Bitcoin Cash:", results.data[1831].quotes.USD.price.toFixed(2)));
+    // }
+    // getXLM() {
+    //     fetch('https://api.coinmarketcap.com/v2/ticker/?limit=17')
+    //     .then(results => results.json())
+    //     .then(results => console.log("Stellar:", results.data[512].quotes.USD.price.toFixed(2)));
+    // }
+    // getETC() {
+    //     fetch('https://api.coinmarketcap.com/v2/ticker/?limit=17')
+    //     .then(results => results.json())
+    //     .then(results => console.log("Ethereum Classic:", results.data[1321].quotes.USD.price.toFixed(2)));
+    // }
+    // getXRP() {
+    //     fetch('https://api.coinmarketcap.com/v2/ticker/?limit=17')
+    //     .then(results => results.json())
+    //     .then(results => console.log("Ripple:", results.data[52].quotes.USD.price.toFixed(2)));
+    // }
+    // getETH() {
+    //     fetch('https://api.coinmarketcap.com/v2/ticker/?limit=17')
+    //     .then(results => results.json())
+    //     .then(results => console.log("Ethereum:", results.data[1027].quotes.USD.price.toFixed(2)));
+    // }
+    getBIT() {
+        fetch('https://api.coinmarketcap.com/v2/ticker/?limit=17')
+        .then(results => results.json())
+        .then(results => console.log("Bitcoin:", results.data[1].quotes.USD.price.toFixed(2)));
     }
 
-
     render() {
-        const cryptoItems = this.state.items.map((item, i) => {
-            return (
-                <li>{item}</li>
-            )
-        })
-            return(
-                <div>
-                    <h3>Items</h3>
-                    <ul>{cryptoItems}</ul>
-                </div>
-            );
+        
+            return null;
     }
 }
 export default CoinPrice;
