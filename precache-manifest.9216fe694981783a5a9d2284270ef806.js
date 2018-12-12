@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cryptoreact/static/media/xrp.eb139f52.png"
   },
   {
-    "revision": "5704b68fec6d2e725f55",
+    "revision": "146f13bf1a72b03c2820",
     "url": "/cryptoreact/static/css/main.f65d4a83.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/cryptoreact/static/media/btc.2e34a9e9.png"
   },
   {
-    "revision": "5704b68fec6d2e725f55",
-    "url": "/cryptoreact/static/js/main.5704b68f.chunk.js"
+    "revision": "146f13bf1a72b03c2820",
+    "url": "/cryptoreact/static/js/main.146f13bf.chunk.js"
   },
   {
     "revision": "513f17ddfc843489b50f6ab3d6de175b",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/cryptoreact/static/css/1.341fe2ca.chunk.css"
   },
   {
-    "revision": "512263991efe4f5597eba9a3b772a69e",
+    "revision": "2e1b57d5f11488df218fcc7ca0db1964",
     "url": "/cryptoreact/index.html"
   }
 ];
