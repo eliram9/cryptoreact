@@ -1,7 +1,7 @@
 {
-  "main.css": "/cryptoreact/static/css/main.b42974ad.chunk.css",
-  "main.js": "/cryptoreact/static/js/main.d158d1e3.chunk.js",
-  "main.js.map": "/cryptoreact/static/js/main.d158d1e3.chunk.js.map",
+  "main.css": "/cryptoreact/static/css/main.1f41d7f4.chunk.css",
+  "main.js": "/cryptoreact/static/js/main.a53adb17.chunk.js",
+  "main.js.map": "/cryptoreact/static/js/main.a53adb17.chunk.js.map",
   "static/css/1.341fe2ca.chunk.css": "/cryptoreact/static/css/1.341fe2ca.chunk.css",
   "static/js/1.43a74a89.chunk.js": "/cryptoreact/static/js/1.43a74a89.chunk.js",
   "static/js/1.43a74a89.chunk.js.map": "/cryptoreact/static/js/1.43a74a89.chunk.js.map",
@@ -14,8 +14,8 @@
   "static/media/header.css": "/cryptoreact/static/media/bc.2c80947b.jpeg",
   "static/media/xrp.png": "/cryptoreact/static/media/xrp.eb139f52.png",
   "static/css/1.341fe2ca.chunk.css.map": "/cryptoreact/static/css/1.341fe2ca.chunk.css.map",
-  "static/css/main.b42974ad.chunk.css.map": "/cryptoreact/static/css/main.b42974ad.chunk.css.map",
+  "static/css/main.1f41d7f4.chunk.css.map": "/cryptoreact/static/css/main.1f41d7f4.chunk.css.map",
   "index.html": "/cryptoreact/index.html",
-  "precache-manifest.c499e42fdb3c7bea5a02792af33373b6.js": "/cryptoreact/precache-manifest.c499e42fdb3c7bea5a02792af33373b6.js",
+  "precache-manifest.c724d5b9785fb874d34bf8fad1bc142d.js": "/cryptoreact/precache-manifest.c724d5b9785fb874d34bf8fad1bc142d.js",
   "service-worker.js": "/cryptoreact/service-worker.js"
 }
